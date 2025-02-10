@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+.z {
+  background-color: #b9b4b4;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #e0e0e0;
+  border-radius: 60px;
+}
+.divvh {
+  margin: 7px 0 0 20px;
+  align-self: flex-start;
+}
+.divth {
+  display: flex;
+  position: relative;
+  left: 72%;
+  justify-self: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+.nav {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.divn {
+  display: flex;
+  margin-left: 9%;
+  padding-top: 58px;
+}
+.b {
+  color: #f3eeee;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 220px;
+  bottom: 150px;
+  gap: 20px;
+}
+.n {
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+.arti {
+  padding-left: 15%;
+  display: flex;
+  gap: 270px;
+}
+.artid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.artip {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.dk {
+  height: 100px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
