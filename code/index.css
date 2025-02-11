@@ -2,25 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: clamp(15px, -0.875rem + 8.333vw, 20px);
+  color: white;
 }
-.z {
-  background-color: #b9b4b4;
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #7e7575;
+  width: 100%;
 }
 a {
   text-decoration: none;
+  font-size: clamp(18px, -0.875rem + 8.333vw, 25px);
 }
 .header {
   position: absolute;
   display: flex;
-  width: 100%;
+  width: 90%;
+  padding: 15px;
   flex-direction: row;
   background-color: #e0e0e0;
   border-radius: 60px;
+  margin: 15px 5%;
+  box-shadow: 5px 5px 15px white;
 }
 .divvh {
   margin: 7px 0 0 20px;
   align-self: flex-start;
+}
+.q {
+  color: black;
+}
+.n {
+}
+button {
+  color: black;
 }
 .divth {
   display: flex;
@@ -31,28 +47,31 @@ a {
   gap: 70px;
 }
 .nav {
+  width: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 10%;
+}
+#navimg {
+  width: 1500px;
 }
 .divn {
   display: flex;
-  margin-left: 9%;
-  padding-top: 58px;
+  padding-top: 120px;
 }
 .b {
+  width: 300px;
   color: #f3eeee;
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: 220px;
-  bottom: 150px;
+  left: 50px;
+  bottom: 50px;
   gap: 20px;
-}
-.n {
 }
 form {
   display: flex;
@@ -62,6 +81,7 @@ form {
   padding-left: 15%;
   display: flex;
   gap: 270px;
+  padding-top: 15px;
 }
 .artid {
   display: flex;
@@ -71,8 +91,21 @@ form {
 }
 .artip {
   display: flex;
-  flex-direction: row;
-  gap: 50px;
+  flex-direction: column;
+  padding: 15px 10%;
+  position: relative;
+}
+.imginatri {
+  width: 1500px;
+}
+.popu {
+  position: absolute;
+}
+#divpo {
+  position: absolute;
+}
+#divdk {
+  display: flex;
 }
 .dk {
   height: 100px;
