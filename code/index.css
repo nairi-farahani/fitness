@@ -10,7 +10,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #7e7575;
+  background-color: #323030;
   width: 100%;
 }
 a {
@@ -23,7 +23,7 @@ a {
   width: 90%;
   padding: 15px;
   flex-direction: row;
-  background-color: #e0e0e0;
+  background-color: #7b6f6f;
   border-radius: 60px;
   margin: 15px 5%;
   box-shadow: 5px 5px 15px white;
@@ -65,7 +65,7 @@ button {
 }
 .b {
   width: 300px;
-  color: #f3eeee;
+  color: #837e7e;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -125,7 +125,7 @@ form {
   gap: 30px;
 }
 .dk {
-  background-color: rgba(87, 83, 83, 0.6);
+  background-color: rgba(87, 81, 81, 0.6);
   max-width: 20%;
   max-height: 500px;
   display: flex;
@@ -134,18 +134,52 @@ form {
   justify-content: flex-end;
   padding: 15px;
 }
-/* .imgfit {
+.imgfit {
   margin: 70px 0 0 10px;
   padding: 5px;
   background-color: #000000;
   border-radius: 100%;
   box-shadow: 5px 5px 5px black;
-} */
-/* .footer {
+}
+.foter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* gap: 60px; */
+  flex-wrap: wrap;
+  max-width: 100%;
+  min-height: 200px;
+  background-color: #686363;
+  border-radius: 10px;
+  margin: 15px 5%;
+  padding: 30px 4% 1px 4%;
+  margin-top: 500px;
+  position: relative;
+}
+.say {
+  background-color: #323030;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  position: absolute;
+  top: -100px;
+  left: 34%;
+  font-size: clamp(35px, -0.875rem + 8.333vw, 50px);
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  max-width: 10%;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.have {
+  width: 30%;
+}
+ol {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  background-color: #bd2828;
-  border-radius: 60px;
-  margin: 15px 5%;
-  box-shadow: 5px 5px 15px rgb(210, 49, 49);
-} */
+  gap: 2%;
+  margin: 15px 0;
+}
