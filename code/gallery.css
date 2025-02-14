@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: clamp(22px, 2vw, 15px);
+}
+button {
+  padding: 7px;
+}
+.main-arti-photo {
+  margin-top: 130px;
+  background: url(../imag/jhjhjj4-min.jpg);
+  width: 80%;
+  height: 600px;
+  background-size: 100% 100%;
+  margin-left: 10%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.divdark {
+  background-color: rgba(17, 16, 16, 0.8);
+  max-width: 40%;
+  min-height: 250px;
+  border-radius: 40px;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.divinmainartiphoto {
+  width: fit-content;
+}
+.article-two {
+  /* background-color: aqua; */
+  max-width: 80%;
+  min-height: ;
+  margin-left: 10%;
+  margin-top: 45px;
+}
+.discover {
+  font-size: clamp(35px, 4vw, 60px);
+  margin-left: 32%;
+}
+.discoverp {
+  width: 95%;
+  min-height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.discover-div {
+  background-color: rgb(90, 40, 131);
+  padding: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 30%;
+  min-height: 250px;
+}
+.foter {
+  margin-top: 250px;
+}
+#button {
+}
+.say {
+}
+.discoverphoto1 {
+  background: url(../imag/h.jpg);
+  max-width: 98%;
+  min-height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
