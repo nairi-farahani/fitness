@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: clamp(15px, 3vw, 22px);
+  color: #e0e0e0;
+  font-family: "Fanwood Text", serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #221f1f;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  font-size: clamp(18px, -0.875rem + 8.333vw, 25px);
+}
+a:hover {
+  color: yellow;
+  text-shadow: 4px 4px 1px black;
+  transition: all 1s;
+  transform: matrix(10deg) rotate(300deg);
+}
+.header {
+  position: absolute;
+  display: flex;
+  width: 90%;
+  padding: 15px;
+  flex-direction: row;
+  background-color: #7b6f6f;
+  border-radius: 60px;
+  margin: 15px 5%;
+  box-shadow: 5px 5px 15px white;
+}
+.divvh {
+  margin: 7px 0 0 0;
+  align-self: flex-start;
+}
+.q {
+  color: black;
+}
+.n {
+}
+button {
+  color: black;
+}
+.divth {
+  display: flex;
+  position: relative;
+  left: 68%;
+  justify-self: flex-end;
+  align-items: center;
+  gap: 70px;
+}
+.nav {
+  width: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+#navimg {
+  width: 1500px;
+}
+.divn {
+  display: flex;
+  padding-top: 120px;
+}
+.b {
+  width: 300px;
+  color: #837e7e;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 50px;
+  bottom: 50px;
+  gap: 20px;
+}
+form {
+  display: flex;
+  gap: 20px;
+}
+.arti {
+  padding-left: 15%;
+  display: flex;
+  gap: 270px;
+  padding-top: 15px;
+}
+.artid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.artip {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10%;
+  position: relative;
+}
+.imginatri {
+  width: 1500px;
+  position: absolute;
+}
+#divpo {
+  position: relative;
+  top: 400px;
+  left: 5%;
+}
+.u {
+  width: 100%;
+  position: relative;
+}
+#popular {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: clamp(40px, -0.875rem + 8.333vw, 70px);
+  top: 350px;
+  text-shadow: 5px 5px 5px rgb(131, 126, 126);
+}
+#divdk {
+  display: flex;
+  gap: 30px;
+}
+.dk {
+  background-color: rgba(87, 81, 81, 0.6);
+  max-width: 20%;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.dk:hover {
+  background-color: rgba(60, 55, 55, 0.6);
+  transition: all 2s;
+}
+
+.imgfit {
+  margin: 70px 0 0 10px;
+  padding: 5px;
+  background-color: #000000;
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px black;
+}
+.foter {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /* gap: 60px; */
+  flex-wrap: wrap;
+  gap: 5%;
+  max-width: 100%;
+  min-height: 200px;
+  background-color: #686363;
+  border-radius: 10px;
+  margin: 15px 5%;
+  padding: 30px 4% 1px 4%;
+  margin-top: 500px;
+  position: relative;
+}
+.say {
+  background-color: #323030;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  position: absolute;
+  top: -100px;
+  left: 34%;
+  font-size: clamp(35px, -0.875rem + 8.333vw, 50px);
+}
+.action {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 10%; */
+  flex-wrap: wrap;
+  height: 250px;
+  gap: 30px;
+  padding-top: 30px;
+}
+.have {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 40%;
+  min-height: 300px;
+  padding-left: 5%;
+}
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  margin: 15px 0;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input,
+button {
+  border: 1px black solid;
+  box-shadow: 0 7px 5px rgb(74, 64, 75);
+  border-radius: 5px;
+}
+button {
+  padding: 5px;
+}
+#button {
+  background-color: #765873;
+  border-radius: 30px;
+}
+#button:hover {
+  background-color: #473847;
+}
